@@ -1,3 +1,26 @@
 <p>
   accounts works!
 </p>
+
+<div class="section">  
+  <div>
+    <table class="table">
+      <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Expense</th>            
+            <th></th>
+          </tr>
+      </thead>
+        <tbody>
+          <tr *ngFor="let a of accounts" (click)="showAccount(a.ID)">
+            <td>{{a.ID}}</td>            
+            <td>{{a.Name}}</td>
+            <td>{{a.Expense}} </td>
+            <td><a [routerLink]="[ '/accounts', a.ID ]">Edit</a></td>
+          </tr>    
+    </tbody>
+    </table>
+  </div>
+</div>

@@ -2,6 +2,7 @@ import { MatchHeightDirective } from './shared/match-height/match-height.directi
 import { PersonComponent } from './demos/nested/person/person.component';
 import { PersonsComponent } from './demos/nested/persons/persons.component';
 import { AccountsComponent } from './accounts/accounts.component';
+import { AccountsService } from './accounts/account.service';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { BindingComponent } from './demos/binding/binding.component';
@@ -70,8 +71,8 @@ import { NavbarComponent } from './shared/index';
     RouterModule,
     AppRoutingModule
   ],
-  providers: [VouchersService,
-  // {provide: LOCALE_ID, useValue: "de-DE"}
+  providers: [VouchersService, AccountsService,
+  {provide: LOCALE_ID, useValue: "de-DE"}
   ],
   bootstrap: [AppComponent]
 })

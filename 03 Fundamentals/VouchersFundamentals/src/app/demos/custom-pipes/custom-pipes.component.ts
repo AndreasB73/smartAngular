@@ -21,6 +21,6 @@ export class CustomPipesComponent implements OnInit {
   }
 
   showVoucher(id: number){
-    console.log(`navigating to voucher with id ${id} - covered later in more detail`);
+    console.log(`navigating to voucher with id ${id} - covered later in more detail`);    
   }
 }
