@@ -1,3 +1,4 @@
+
 import { DemosComponent } from './demos/demos.component';
 import { PersonsComponent } from './demos/persons/persons.component';
 import { ChildRoutesComponent } from './demos/child-routes/child-routes.component';
@@ -10,6 +11,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { AccountsComponent } from 'app/accounts/accounts.component';
+import { AccountComponent } from './accounts/account/account.component';
 import { AdminComponent } from 'app/admin/admin.component';
 
 const appRoutes: Routes = [
@@ -30,6 +32,9 @@ const appRoutes: Routes = [
     { path: 'accounts',
       component: AccountsComponent 
     },
+    { path: 'accounts/:id',
+    component: AccountComponent 
+  },
     {
       path: 'admin',
       component: AdminComponent ,

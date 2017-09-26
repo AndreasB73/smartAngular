@@ -14,6 +14,7 @@ import {
   export class RouteGuard implements CanActivate, CanActivateChild {
 
     allow: boolean = !environment.authEnabled;
+
     constructor(private router: Router) {}
   
     canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean> | Promise<boolean> | boolean {

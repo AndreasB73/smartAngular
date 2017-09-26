@@ -6,6 +6,7 @@ import { DemosComponent } from './demos/demos.component';
 import { VouchersComponent } from './vouchers/vouchers.component';
 import { VoucherComponent } from './vouchers/voucher/voucher.component';
 import { AccountsComponent } from './accounts/accounts.component';
+import { AccountComponent } from './accounts/account/account.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule, ViewChild } from '@angular/core';
 import { AdminComponent } from './admin/admin.component';
@@ -27,10 +28,14 @@ const appRoutes: Routes = [
     { path: 'vouchers/:id',
       component: VoucherComponent
     },
+
     { path: 'accounts',
       component: AccountsComponent,
       data: { title: 'Accounts' }
     },
+  { path: 'accounts/:id',
+  component: AccountComponent
+},
     {
       path: 'admin',
       component: AdminComponent ,

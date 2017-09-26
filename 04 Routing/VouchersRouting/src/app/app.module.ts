@@ -1,3 +1,6 @@
+import { AccountsService } from './accounts/account.service';
+import { VoucherDetailsListComponent } from './vouchers/voucher/voucher-details-list/voucher-details-list.component';
+import { VoucherDetailComponent } from './vouchers/voucher/voucher-detail/voucher-detail.component';
 import { MatchHeightDirective } from './shared/match-height/match-height.directive';
 import { NavbarComponent } from 'app/shared';
 import { FormsModule } from '@angular/forms';
@@ -21,6 +24,7 @@ import { RouteGardsComponent } from './demos/route-gards/route-gards.component';
 import { PersonsComponent } from './demos/persons/persons.component';
 import { AdminComponent } from './admin/admin.component';
 import { RouteGuard } from 'app/route.guard.service';
+import { AccountComponent } from './accounts/account/account.component';
 
 // const appRoutes: Routes = [
 //   { path: '', 
@@ -58,8 +62,11 @@ import { RouteGuard } from 'app/route.guard.service';
     AdminComponent,
     VouchersComponent,
     VoucherComponent,
+    VoucherDetailComponent,
+    VoucherDetailsListComponent,
     PageNotFoundComponent,
     AccountsComponent,
+    AccountComponent,    
     RoutingBasicsComponent,
     DemoSectionComponent,
     ChildRoutesComponent,
@@ -67,7 +74,7 @@ import { RouteGuard } from 'app/route.guard.service';
     PersonsComponent,
     NavbarComponent,
     MatchHeightDirective
-  ],
+    ],
   imports: [
     FormsModule,
     HttpClientModule,
@@ -76,9 +83,11 @@ import { RouteGuard } from 'app/route.guard.service';
     RouterModule,    
     AppRoutingModule
   ],
-  providers: [VouchersService,
-    {provide: LOCALE_ID, useValue: "de-DE"}
-    ,RouteGuard
+  providers: [
+    VouchersService, 
+    AccountsService,
+    {provide: LOCALE_ID, useValue: "de-DE"},
+    RouteGuard
     ],
   bootstrap: [AppComponent]
 })

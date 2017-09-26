@@ -1,3 +1,8 @@
+
+
+import { AccountsService } from './account.service';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Account } from '../shared/model/model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,11 +10,19 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './accounts.component.html',
   styleUrls: ['./accounts.component.css']
 })
+
 export class AccountsComponent implements OnInit {
 
-  constructor() { }
+  accounts: Account[];
+  
+  constructor(private router: Router, private as: AccountsService) {  }
 
-  ngOnInit() {
+  ngOnInit() {   
+    this.as.getAccounts().then(data => this.accounts = data)
+  }
+
+  showAccount(id: number){
+    this.router.navigate(['/account/' + id]);
   }
 
 }

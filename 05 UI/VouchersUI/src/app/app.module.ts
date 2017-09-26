@@ -1,3 +1,4 @@
+import { AccountsService } from './accounts/account.service';
 import { HttpModule } from '@angular/http';
 import { MatchHeightDirective } from './shared';
 import { NavbarComponent } from './shared';
@@ -25,6 +26,7 @@ import { VoucherDetailComponent } from './vouchers/voucher/voucher-detail/vouche
 import { VoucherDetailsListComponent } from './vouchers/voucher/voucher-details-list/voucher-details-list.component';
 import { BsDatepickerModule } from 'ngx-bootstrap';
 import {NgxChartsModule} from '@swimlane/ngx-charts';
+import { AccountComponent } from './accounts/account/account.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,7 @@ import {NgxChartsModule} from '@swimlane/ngx-charts';
     MatchHeightDirective,
     VouchersComponent,
     AccountsComponent,
+    AccountComponent,
     VoucherComponent,
     VoucherDetailComponent,
     VoucherDetailsListComponent,
@@ -57,6 +60,7 @@ import {NgxChartsModule} from '@swimlane/ngx-charts';
   ],
   providers: [
     VouchersService,
+    AccountsService,
     {provide: LOCALE_ID, useValue: "de-DE"},
     RouteGuard
   ],
