@@ -3597,7 +3597,7 @@
       ]
     },
     "Microsoft.AspNetCore.Diagnostics/2.0.0": {
-      "sha512": "VuOe/MvK2e7qfLAwi22UMYHuVX+ZHSBuu4DuYsJaYy1LcenL+InOunOIGMRiYij67bB3IyEdDyYe7zlasPDrjQ==",
+      "sha512": "3+Iw82NqOIi5OXlNu9NHZEkQzOkqpCxCkgKogo5H2/5cU9GEE4cwM4BKfY9hq9jVJwWDPsRJOC+Ot0f9gEcQsg==",
       "type": "package",
       "path": "microsoft.aspnetcore.diagnostics/2.0.0",
       "files": [
@@ -3751,7 +3751,7 @@
       ]
     },
     "Microsoft.AspNetCore.Mvc/2.0.0": {
-      "sha512": "sSKLy1ism9uhnUiIq918sBS9NZjKBTOwMyl8OGkMp20rRrisbpvvRsh+n4w8PjEIP77orcH4ZS1kT0Wr0mmVjA==",
+      "sha512": "9KmSDGw3XXosv3+c7TX8An91ya+jtzbAuquHVp6t/qB1CA+MZI7r2d6n3dvUZUcKbrpmB8cfbvzbeEGv/QKp3Q==",
       "type": "package",
       "path": "microsoft.aspnetcore.mvc/2.0.0",
       "files": [
@@ -3784,7 +3784,7 @@
       ]
     },
     "Microsoft.AspNetCore.Mvc.Core/2.0.0": {
-      "sha512": "vpRivj0Rh3EuCibCZ1lm2RlHzFtdrXchKvFI1sOKXDY4alF9BiOoATMjL9SKLSCF6jcuaLCP06rVXb9RgHLZ+w==",
+      "sha512": "VQTTuotnhiLwE6CJHldwIm2UgVEy6BEijdHv09P8VpCv7bokds260bH74RA2Pjp975zqCd2BqVgXM0KSu+K1sw==",
       "type": "package",
       "path": "microsoft.aspnetcore.mvc.core/2.0.0",
       "files": [
@@ -3978,7 +3978,7 @@
       ]
     },
     "Microsoft.AspNetCore.Server.IISIntegration/2.0.0": {
-      "sha512": "M4r2PfAe3t3GfDXPMo5MehhQwIqMQiLQJos8vbEHX01d/dxPj1JXnJMZTJWVoboMRKUqLO/Dm3Sg0LFsOmWhQw==",
+      "sha512": "2ucubupqXkVxzOOsXVpc0YOm8SQuja467tXWk9ox5tDvbVCa5koI3XQxol1QF3hFOlVbpJIjZ/MMtCVoSohBqw==",
       "type": "package",
       "path": "microsoft.aspnetcore.server.iisintegration/2.0.0",
       "files": [
@@ -3989,7 +3989,7 @@
       ]
     },
     "Microsoft.AspNetCore.Server.Kestrel/2.0.0": {
-      "sha512": "igbnwsZH3Pm2bIiMKPyFqAlJCS7J0IdcerqTTc0YTXJ8pvxoeqXEa7+q+Q+N+jBrCV0uM/WPnb1T9moPRzGB9A==",
+      "sha512": "cDbsUQXVOlOCt9cWKsE9Ge9dH5Dwl50TJzU6HdSZV0vgvL/AFEn5U610C0oQQdblWn/GTHqL2uCXY1gFyN0DUw==",
       "type": "package",
       "path": "microsoft.aspnetcore.server.kestrel/2.0.0",
       "files": [
@@ -4044,7 +4044,7 @@
       ]
     },
     "Microsoft.AspNetCore.StaticFiles/2.0.0": {
-      "sha512": "L0ElnqTs6HXFb9AxLcDyX2sEhe047hTYMGILWWrmDb8YsSe/9HN1mtBD9lnWBSsnGZTlCAg+vuszBv5mi2Ib0Q==",
+      "sha512": "HBMJQ1WPdHO0thltwi7agvfis3c1Kd5HFQDgyy0nV3X4mJvhVGUnymT0+QQU+GGNK9FG/uEQNE3YDSrrBamP7w==",
       "type": "package",
       "path": "microsoft.aspnetcore.staticfiles/2.0.0",
       "files": [
@@ -4220,7 +4220,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore/2.0.0": {
-      "sha512": "L4WKY7ZOKl1nPj3KOWXz3PT8u5YSiGhwiMJw7iPCIvtH17boy+6yCwdmnQz9TYrIC64MU4eTTCOzlSoEdQQU9A==",
+      "sha512": "wmgBEpjoxd6ElVh13dlzmsl/9BtE5lky97vutJxLwFopP0IuWAyclCC2WHoXq4bYRmtzYSpmA4Q/kNugynswSA==",
       "type": "package",
       "path": "microsoft.entityframeworkcore/2.0.0",
       "files": [
@@ -4231,7 +4231,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Design/2.0.0": {
-      "sha512": "R4jF+/KoyxeOSq5FeSOJRCARPSRkbcMCU8hewqIXnk2yTzjw7sqe5uRrOTAWVkseRmKdUV9TR90Z+8ya0cpPHw==",
+      "sha512": "v8e4OwmK+BIm7jINmGJaQz1+r6BiFl+bGJNVUF4JQZ9H40keeTIHEgKDxdEr+24EdllfLLKTisEziq1H089TYg==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.design/2.0.0",
       "files": [
@@ -4255,7 +4255,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.SqlServer/2.0.0": {
-      "sha512": "N/Ag9lYkVeAjP/0yFnw6AWAdniuwSUSWsrO1E/Tt+RCPt0eGxY9CxjjgBZ/eVVYQS9BpEkeWked8rrYQKrh7uA==",
+      "sha512": "mr+S07kAKXsdu9207w1ek4O1/0+y5925kMYy7gCqu15QpvfVXOLdAR0b9RQfBxmtAJPrYx6/KtfvAg70jm5zUA==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.sqlserver/2.0.0",
       "files": [
@@ -4266,7 +4266,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Tools/2.0.0": {
-      "sha512": "iPWcsi+TcG/En2h6jgAKPeLxKJ2P1MDJm5gNEjcV6ETpKBz45QoW4x/QADUEctfAYQ7Q4mS6A1tigQ8POApcng==",
+      "sha512": "ILVI7sbnD0Pgf6B90AL3RiRdq+XRXEG4VnvuD75Fluv6p5PbYfU2tQP2VlL0oAFCVhihSgSWIQHtDjUFEE0+nw==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.tools/2.0.0",
       "files": [
@@ -4311,7 +4311,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration/2.0.0": {
-      "sha512": "QnvvjzS7yF4nNM8j5Hu00W8k2ph9v6FY6R9Tor3tJqumSRR4ojJmrhJiFIMop6HZ+cy2iHzqNGHUN1cIJ16LpA==",
+      "sha512": "SsI4RqI8EH00+cYO96tbftlh87sNUv1eeyuBU1XZdQkG0RrHAOjWgl7P0FoLeTSMXJpOnfweeOWj2d1/5H3FxA==",
       "type": "package",
       "path": "microsoft.extensions.configuration/2.0.0",
       "files": [
@@ -4322,7 +4322,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
-      "sha512": "41eh9+FyrLf7MdVEGNCc5n5oSr7QcAIQhQOWM6t9nVLzhTfJuss7Ts1WWRvyTBRUOKJ10bTRSdRICEOaF97mug==",
+      "sha512": "rHFrXqMIvQNq51H8RYTO4IWmDOYh8NUzyqGlh0xHWTP6XYnKk7Ryinys2uDs+Vu88b3AMlM3gBBSs78m6OQpYQ==",
       "type": "package",
       "path": "microsoft.extensions.configuration.abstractions/2.0.0",
       "files": [
@@ -4344,7 +4344,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration.CommandLine/2.0.0": {
-      "sha512": "4ebnjd4AuVGgxGGZTouGgCpA2DbZqGL3JFeY8bqDiIyLqgN6wh0GwZLCYlV0LAuoKIzGqGrxXwKaC3/TMBCxnQ==",
+      "sha512": "Vf2YKZFLx0lZjgGLhliYyhXzZOkpgrcF5RhpgjPsvdbxJ97jD/kPNXP0wmYnaF3IPzP/ro6z2zph6QzUophrkA==",
       "type": "package",
       "path": "microsoft.extensions.configuration.commandline/2.0.0",
       "files": [
@@ -4366,7 +4366,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration.FileExtensions/2.0.0": {
-      "sha512": "4B3KcASUeNbFy2LNsKXo0dc8HLslXNTM0k1aY1IYSFO3e6pRI2uLX6GiS8mBhCJga/qawXr7SiydPZGn4clHtQ==",
+      "sha512": "ebFbu+vsz4rzeAICWavk9a0FutWVs7aNZap5k/IVxVhu2CnnhOp/H/gNtpzplrqjYDaNYdmv9a/DoUvH2ynVEQ==",
       "type": "package",
       "path": "microsoft.extensions.configuration.fileextensions/2.0.0",
       "files": [
@@ -4377,7 +4377,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration.Json/2.0.0": {
-      "sha512": "eEXE7KmicPQnVFIx4kkRODObT5rLHfGjgGkVdnsB9/BGojq2v174tqfvMRWOkVCvgqeRF+yLDhptd8ZfIRVRRg==",
+      "sha512": "thPz4SckRGNqeLbdvJ619YxRFSkWuL1K5QqTMb3TVdEwjQj4O39yfUtjtI/XlWJiY7JKK4MUKAiQZVYc8ohKKg==",
       "type": "package",
       "path": "microsoft.extensions.configuration.json/2.0.0",
       "files": [
@@ -4546,7 +4546,7 @@
       ]
     },
     "Microsoft.Extensions.Logging.Console/2.0.0": {
-      "sha512": "Y1jb4kVwlfeLE9ecmh3bdVNoVjjqSa0PrUb/bO4dZln6rb8JZMtHdEYczM7pI7PKRs7n21yJkPCmAzQKQt6nQg==",
+      "sha512": "NBjNp899FW7byDsex2ch/CkwNd2GbuHQIXCbvUVqOzSbnIsYrxOaR//BY2h2apJhnqm10IPLGkcjXxUyfAcIKA==",
       "type": "package",
       "path": "microsoft.extensions.logging.console/2.0.0",
       "files": [
@@ -4590,7 +4590,7 @@
       ]
     },
     "Microsoft.Extensions.Options.ConfigurationExtensions/2.0.0": {
-      "sha512": "o8anqJJkNgKd5PqtGEBYtdb567q1+YvTLkQssNsU2WX2Rzq3TUeq7OoE8fPdKJTtI4Q+z6YK9F8zJ8n8cEe9Iw==",
+      "sha512": "Y/lGICwO27fCkQRK3tZseVzFjZaxfGmui990E67sB4MuiPzdJHnJDS/BeYWrHShSSBgCl4KyKRx4ux686fftPg==",
       "type": "package",
       "path": "microsoft.extensions.options.configurationextensions/2.0.0",
       "files": [
@@ -9589,11 +9589,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\smartAngular\\06 Data Access\\VouchersAPI\\VouchersAPI\\VouchersAPI.csproj",
+      "projectUniqueName": "D:\\smartAngular\\07 Forms & Validation\\VouchersAPI\\VouchersAPI\\VouchersAPI.csproj",
       "projectName": "VouchersAPI",
-      "projectPath": "D:\\smartAngular\\06 Data Access\\VouchersAPI\\VouchersAPI\\VouchersAPI.csproj",
+      "projectPath": "D:\\smartAngular\\07 Forms & Validation\\VouchersAPI\\VouchersAPI\\VouchersAPI.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\smartAngular\\06 Data Access\\VouchersAPI\\VouchersAPI\\obj\\",
+      "outputPath": "D:\\smartAngular\\07 Forms & Validation\\VouchersAPI\\VouchersAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

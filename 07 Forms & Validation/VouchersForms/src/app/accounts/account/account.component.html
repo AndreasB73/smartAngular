@@ -1,0 +1,27 @@
+  <div class="cmdPanel">
+    <div class="row">
+        <div class="col-md-8">
+            <span>Account {{account.ID}}</span>
+        </div>
+        <div class="col-md-4 rightCell">
+            <a routerLink="/accounts" class="btn btn-xs btn-default">Cancel / Back</a>
+            <a (click)="saveAccount()" class="btn btn-xs btn-default">Save Account</a>
+        </div>
+    </div>
+</div>
+
+<div class="section bd-accountBox-row">
+  <div class="row">
+      <div class="col-md-4">
+          <input id="AccountName" [(ngModel)]="account.Name" size="40" type="text" placeholder="Text:" class="form-control input-sm" />
+      </div>
+
+
+      <label class="radio-inline" for="rbExpense">
+        <input type="radio" name="radios"  [(ngModel)]="account.Expense" />
+        Expense: {{account.Expense}}
+    </label>
+
+  </div>
+
+  </div>

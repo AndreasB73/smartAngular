@@ -20,7 +20,7 @@ export class FirebaseService {
       return this.httpClient.post(this.url + "data.json", v); 
 
       // custom header
-      // return this.httpClient.post(this.url + "data.json", v,{headers: this.headers});
+     //return this.httpClient.post(this.url + "data.json", v,{headers: this.headers});
     }
 
     getVouchers() : Observable<any> {    

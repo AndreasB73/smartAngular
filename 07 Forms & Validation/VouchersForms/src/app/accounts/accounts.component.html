@@ -1,3 +1,34 @@
-<p>
-  accounts works!
-</p>
+<div class="cmdPanel">
+  <div class="row">
+    <div class="col-xs-8" >
+        <span>Accounts</span>
+    </div>
+    <div class="col-xs-4 rightCell">
+        <a [routerLink]="[ '/accounts', 0 ]" class="btn btn-xs btn-default">Add</a>
+    </div>
+  </div>
+</div>
+
+<div class="section">  
+  <div>
+    <table class="table">
+      <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Expense</th>            
+            <th></th>
+          </tr>
+      </thead>
+        <tbody>
+          <tr *ngFor="let a of accounts" (click)="showAccount(a.ID)">
+            <td>{{a.ID}}</td>            
+            <td>{{a.Name}}</td>
+            <td>{{a.Expense}} </td>
+            <td><a [routerLink]="[ '/accounts', a.ID ]">Edit</a></td>
+          </tr>    
+          
+    </tbody>
+    </table>
+  </div>
+</div>

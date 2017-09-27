@@ -1,3 +1,4 @@
+import { AccountComponent } from './accounts/account/account.component';
 import { TwoWayPersonComponent } from './demos/two-way-person/two-way-person.component';
 import { FormsBuilderComponent } from './demos/forms-builder/forms-builder.component';
 import { ReativeValidationComponent } from './demos/reative-validation/reative-validation.component';
@@ -35,6 +36,9 @@ const appRoutes: Routes = [
       component: AccountsComponent,
       data: { title: 'Accounts' }
     },
+    { path: 'accounts/:id',
+    component: AccountComponent,
+  },
     {
       path: 'admin',
       component: AdminComponent ,

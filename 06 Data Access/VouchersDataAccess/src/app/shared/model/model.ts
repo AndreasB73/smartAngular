@@ -47,11 +47,3 @@ export class Voucher {
     Readonly?: boolean;
     Details?: VoucherDetail[];
 }    
-    
-    export class Account {
-        ID: number;
-        Name: string; 
-        Expense: boolean;
-        VoucherDetails?: VoucherDetail[];
-    }
-

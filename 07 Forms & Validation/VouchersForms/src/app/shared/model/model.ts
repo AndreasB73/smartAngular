@@ -4,13 +4,13 @@ export class VoucherDetail {
     ID: number;
     VoucherID: number;
     AccountID: number;
-    Account: BalanceAccount;
+    Account: Account;
     Text: string;
     Amount: number;
     Comment: string;
 }
 
-export class BalanceAccount {
+export class Account {
     ID: number;
     Name: string;
     Expense: boolean;

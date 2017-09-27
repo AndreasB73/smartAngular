@@ -1,6 +1,8 @@
+import { AccountsService } from './accounts/account.service';
 import { HttpModule } from '@angular/http';
 import { ControlMessagesComponent } from './demos/control-messages.component';
 import { AccountsComponent } from './accounts/accounts.component';
+import { AccountComponent } from './accounts/account/account.component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { BrowserModule } from '@angular/platform-browser';
@@ -34,6 +36,7 @@ import { AdminComponent } from './admin/admin.component';
     VouchersComponent,
     AdminComponent,
     AccountsComponent,
+    AccountComponent,
     VoucherComponent,
     VoucherDetailComponent,
     VoucherDetailsListComponent,
@@ -63,6 +66,7 @@ import { AdminComponent } from './admin/admin.component';
   ],
   providers: [
     VouchersService,
+    AccountsService,
     {provide: LOCALE_ID, useValue: "de-DE"},
     RouteGuard
   ],
