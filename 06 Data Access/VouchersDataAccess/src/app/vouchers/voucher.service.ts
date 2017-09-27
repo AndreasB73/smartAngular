@@ -12,7 +12,7 @@ export class VouchersService {
 
     getVouchers() : Observable<any> {
         return this.httpClient.get('http://localhost:5000/api/vouchers');          
-    }
+    } 
     
     getVoucher(id: number) : Observable<any> {
         return this.httpClient.get('http://localhost:5000/api/vouchers/getvm/' + id);

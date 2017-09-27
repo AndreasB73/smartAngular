@@ -29,7 +29,7 @@ export class HttpClientsComponent implements OnInit {
       this.http.get('http://localhost:5000/api/vouchers')
         .map(response => response.json())
         .subscribe((data)=>{
-        this.result = data;
+        this.result = data;        
       })
     }
 
