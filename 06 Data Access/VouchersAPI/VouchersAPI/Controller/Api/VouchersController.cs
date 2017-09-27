@@ -44,7 +44,7 @@ namespace Vouchers.Api
             ctx.SaveChanges();
         }
 
-        [HttpPut()]        
+        [HttpPut]        
         public void Put([FromBody]Voucher value) //Classic .NET Core WebApi pattern: public void Put(int id, [FromBody]Voucher value)
         {
             ctx.Vouchers.Attach(value);
@@ -104,6 +104,11 @@ namespace Vouchers.Api
                 //Update using attach and entity state pattern
                 ctx.Vouchers.Attach(value);
                 ctx.Entry(value).State = EntityState.Modified;
+                foreach (VoucherDetail vd in value.Details)
+                {
+                    ctx.VoucherDetails.Attach(vd);
+                    ctx.Entry(vd).State = EntityState.Modified;
+                }
             }
             ctx.SaveChanges();
             return value.ID;
