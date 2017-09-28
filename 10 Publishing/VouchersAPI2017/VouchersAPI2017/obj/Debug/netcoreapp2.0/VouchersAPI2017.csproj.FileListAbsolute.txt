@@ -1,0 +1,11 @@
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\bin\Debug\netcoreapp2.0\VouchersAPI2017.deps.json
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\bin\Debug\netcoreapp2.0\VouchersAPI2017.runtimeconfig.json
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\bin\Debug\netcoreapp2.0\VouchersAPI2017.runtimeconfig.dev.json
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\bin\Debug\netcoreapp2.0\VouchersAPI2017.dll
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\bin\Debug\netcoreapp2.0\VouchersAPI2017.pdb
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\obj\Debug\netcoreapp2.0\VouchersAPI2017.csprojResolveAssemblyReference.cache
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\obj\Debug\netcoreapp2.0\VouchersAPI2017.csproj.CoreCompileInputs.cache
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\obj\Debug\netcoreapp2.0\VouchersAPI2017.AssemblyInfoInputs.cache
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\obj\Debug\netcoreapp2.0\VouchersAPI2017.AssemblyInfo.cs
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\obj\Debug\netcoreapp2.0\VouchersAPI2017.dll
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\obj\Debug\netcoreapp2.0\VouchersAPI2017.pdb

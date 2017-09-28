@@ -8,6 +8,7 @@ describe("VoucherValidater", function () {
         var voucherhead;
         var goodvoucher;
         var badvoucher;
+        var nullVoucher;
     
         beforeEach(function() {
 
@@ -15,7 +16,7 @@ describe("VoucherValidater", function () {
                 "ID": 2,
                 "Text": "BP Tankstelle",
                 "Date": "2016-11-15T00:00:00",
-                "Amount": 650,
+                "Amount": 40,
                 "Paid": false,
                 "Expense": false,
                 "Remark": true,
@@ -66,29 +67,30 @@ describe("VoucherValidater", function () {
                     }
                 ]
             }
-        });
+        
+            nullVoucher = {
+                "ID": 2,
+                "Text": "BP Tankstelle",
+                "Date": "2016-11-15T00:00:00",
+                "Amount": 650,
+                "Paid": false,
+                "Expense": false,
+                "Remark": true,
+                "Details": null
+            };
 
-        var nullVoucher = {
-            "ID": 2,
-            "Text": "BP Tankstelle",
-            "Date": "2016-11-15T00:00:00",
-            "Amount": 650,
-            "Paid": false,
-            "Expense": false,
-            "Remark": true,
-            "Details": null
-        };
+        });
             
         it("returns true when correct data is passed", function () {
             expect(VoucherValidator.validate(goodvoucher)).toEqual(true);
         });
     
         it("returns false when bad data is passed", function () {
-            expect(VoucherValidator.validate(goodvoucher)).toEqual(false);
+            expect(VoucherValidator.validate(badvoucher)).toEqual(false);
         });
     
-        it("returns false when null is passed as Details", function () {           
-            expect(VoucherValidator.validate(nullVoucher)).toEqual(false);
+        it("returns undefined when null is passed as Details", function () {           
+            expect(VoucherValidator.validate(nullVoucher)).toEqual(undefined);
         });
     
     });

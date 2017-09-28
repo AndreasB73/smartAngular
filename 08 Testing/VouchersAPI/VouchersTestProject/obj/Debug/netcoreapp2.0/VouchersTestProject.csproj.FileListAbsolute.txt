@@ -1,0 +1,16 @@
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\VouchersTestProject.deps.json
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\VouchersTestProject.runtimeconfig.json
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\VouchersTestProject.runtimeconfig.dev.json
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\VouchersTestProject.dll
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\VouchersTestProject.pdb
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\VouchersAPI.dll
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\bin\Debug\netcoreapp2.0\VouchersAPI.pdb
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\obj\Debug\netcoreapp2.0\VouchersTestProject.csprojResolveAssemblyReference.cache
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\obj\Debug\netcoreapp2.0\VouchersTestProject.csproj.CoreCompileInputs.cache
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\obj\Debug\netcoreapp2.0\VouchersTestProject.AssemblyInfoInputs.cache
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\obj\Debug\netcoreapp2.0\VouchersTestProject.AssemblyInfo.cs
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\obj\Debug\netcoreapp2.0\VouchersTestProject.dll
+D:\smartAngular\08 Testing\VouchersAPI\VouchersTestProject\obj\Debug\netcoreapp2.0\VouchersTestProject.pdb

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Vouchers.Api
 {
@@ -18,6 +19,7 @@ namespace Vouchers.Api
             rep = repository;
         }
 
+        [Authorize]
         // http://localhost:PORT/api/vouchers        
         [HttpGet]
         public IEnumerable<Voucher> Get()

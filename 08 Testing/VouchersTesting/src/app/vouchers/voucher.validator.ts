@@ -8,7 +8,7 @@ export class VoucherValidator{
         if (voucher.Details!=null) {
             var sumD = 0;
             for(let vd of voucher.Details){
-                sumD = vd.Amount;
+                sumD += vd.Amount;
             }
             detailSumOk = sumD == voucher.Amount;
         }

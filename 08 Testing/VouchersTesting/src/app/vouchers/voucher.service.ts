@@ -1,3 +1,4 @@
+import { VoucherValidator } from './voucher.validator';
 
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -18,16 +19,20 @@ export class VouchersService {
         return this.httpClient.get('http://localhost:5000/api/vouchers/getvm/' + id);
       }
 
-    insertVoucher(voucher: Voucher) : void {                
-        this.httpClient.post('http://localhost:5000/api/vouchers', voucher)
+    insertVoucher(voucher: Voucher) : void {      
+        if (VoucherValidator.validate(voucher)) {
+            this.httpClient.post('http://localhost:5000/api/vouchers', voucher)
             .subscribe(()=>console.log(`voucher with id ${voucher.ID} inserted`), 
             (err)=> console.log(err));            
+        }        
     }
 
     updateVoucher(voucher: Voucher) : void {
-        this.httpClient.put('http://localhost:5000/api/vouchers', voucher)
-            .subscribe(()=>console.log(`voucher with id ${voucher.ID} updated`), 
-            (err)=> console.log(err));
+        if (VoucherValidator.validate(voucher)) {
+            this.httpClient.put('http://localhost:5000/api/vouchers', voucher)
+                .subscribe(()=>console.log(`voucher with id ${voucher.ID} updated`), 
+                (err)=> console.log(err));
+        }
     }
 
     deleteVoucher(id: number) : void {
