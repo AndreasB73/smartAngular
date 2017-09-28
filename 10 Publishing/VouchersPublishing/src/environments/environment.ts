@@ -6,5 +6,6 @@
 export const environment = {
   production: false,
   authEnabled: false,
-  firebaseToken: "QeOv74uiEDNz7QM91bjYKc82VgS2"
+  firebaseToken: "QeOv74uiEDNz7QM91bjYKc82VgS2",
+  webApiUrl: "http://localhost:5000"
 };

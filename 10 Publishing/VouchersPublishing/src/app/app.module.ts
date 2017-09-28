@@ -1,3 +1,4 @@
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FirebaseInterceptor } from './demos/firebase-interceptor';
 import { HttpModule } from '@angular/http';
 import { NavbarComponent } from './shared/navbar/navbar.component';
@@ -41,7 +42,8 @@ import { HTTP_INTERCEPTORS }from '@angular/common/http';
     NavbarComponent,
     MatchHeightDirective,
     NoSQLInterceptorComponent,
-    AdminComponent
+    AdminComponent,
+    PageNotFoundComponent
   ],
   imports: [
     FormsModule,

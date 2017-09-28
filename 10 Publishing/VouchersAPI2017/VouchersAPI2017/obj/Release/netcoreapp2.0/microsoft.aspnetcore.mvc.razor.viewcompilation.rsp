@@ -1,0 +1,5 @@
+D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=VouchersAPI2017
+--content-root=D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017
+--file=D:\smartAngular\10 Publishing\VouchersAPI2017\VouchersAPI2017\Views\Home\Index.cshtml
